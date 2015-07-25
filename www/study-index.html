@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Ionic App</title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <!-- <ion-pane>
+      <ion-header-bar class="bar-royal">
+        <button class="icon ion-navicon button button-clear">Button</button>
+        <button class="icon ion-gear-a button button-outline">Options</button>
+        <h1 class="title">Ionic App</h1>
+      </ion-header-bar>
+      <div class="bar bar-subheader">
+        <h2 class="title">Sub Header</h2>
+      </div>
+      <ion-content class="padding has-subheader">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero doloribus, fugit enim hic nisi debitis nobis quibusdam voluptatem quod provident possimus dolor dolore recusandae dignissimos, expedita quos porro maxime.
+        </p>
+        <p><button><i class="icon ion-ionic"></i> Ionic</button></p>
+        <p><button><i class="icon icon-right ion-ionic"></i>Ionic </button></p>
+        <p><button class="icon ion-ionic button button-royal"></i> Icon</button></p>
+        <p><button class="icon ion-ionic icon-left button button-royal"></i>Left</button>
+        <button class="icon ion-ionic icon-right button button-royal"></i>Right</button></p>
+       
+
+        <div class="button-bar">
+        <button class="icon ion-social-twitter button button-royal"></button>
+        <button class="icon ion-social-facebook button button-royal"></button>
+        <button class="icon ion-social-github button button-royal"></button>
+        <button class="icon ion-social-twitter button button-clear button-royal">
+          
+        </button>
+        <button class="icon ion-social-facebook button button-clear button-royal"></button>
+        <button class="icon ion-social-github button button-clear button-royal"></button>
+      </div>
+
+      </ion-content>
+
+      
+      <ion-footer-bar class="bar-royal">
+        <h1 class="title">#BuildAwesomeShit</h1>
+      </ion-footer-bar> 
+
+      Videos 001 - 012-->
+      
+   <!--  <ion-pane>
+     
+     <ion-header-bar class="bar-energized">
+       <button class="icon ion-navicon button button-clear"></button>
+       <h1 class="title">Video 012+</h1>
+       <button class="icon ion-gear-a button button-clear"></button>
+     </ion-header-bar>
+     
+     <div class="tabs tabs-energized">
+       <a class="tab-item"><i class="icon ion-home"></i>Home</a>
+       <a class="tab-item"><i class="icon ion-person"></i>About</a>
+       <a class="tab-item"><i class="icon ion-calendar"></i>Calendar</a>
+     </div>
+   
+     Android Version
+     <div class="tabs-striped tabs-background-energized tabs-top">
+   
+       <ion-tabs>  Angular Version, Android Ver goes to top
+         <a class="tab-item"><i class="icon ion-home"></i>Home</a>
+         <a class="tab-item"><i class="icon ion-person"></i>About</a>
+         <a class="tab-item"><i class="icon ion-calendar"></i>Calendar</a>
+       </ion-tabs>
+     </div>
+   
+     Shorter version using Angular, still produces opposite effect in ios
+     <ion-tabs>
+       <ion-tab icon="ion-home"></ion-tab>
+       <ion-tab icon="ion-person"></ion-tab>
+       <ion-tab badge="17" badge-style="badge-assertive" icon="ion-calendar"></ion-tab>
+   
+     </ion-tabs>
+   
+     <ion-content>
+       <div class="list">
+         <a href="#" class="item">Item 01</a>
+         <a href="#" class="item item-icon-left">
+           <i class="icon ion-email"></i>
+             Check mail!
+         </a>  
+         <a href="#" class="item item-thumbnail-left">
+           <img src="http://placehold.it/100x100" alt="Avatar ">
+           <h2>Johnny Subject</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint iusto dolore nulla non perferendis, eveniet, earum quos, officiis distinctio quisquam reprehenderit laboriosam. Maiores error at, officia. Earum accusamus doloribus ipsam.</p>
+         </a>  
+         <a href="#" class="item item-avatar">
+           <img src="http://placehold.it/100x100" alt="Avatar ">
+           <h2>Stacy Subject</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint iusto dolore nulla non perferendis, eveniet, earum quos, officiis distinctio quisquam reprehenderit laboriosam. Maiores error at, officia. Earum accusamus doloribus ipsam.</p>
+         </a>
+         <a href="#" class="item">Item 04</a>
+         <div class="item item-divider">Headline 1</div>
+         <a href="#" class="item">Item 06</a>
+         </a>
+         <a href="#" class="item item-icon-left item-icon-right">
+           <i class="icon ion-chatbubble-working"></i>
+             Check mail!
+           <i class="icon ion-ionic"></i>
+         </a>
+         <a href="#" class="item item-button-right">
+             Friends
+           <button class="button button-assertive">
+           <i class="icon ion-person"></i>
+           </button>
+         </a>
+         <a href="#" class="item item-icon-left">
+           <i class="icon ion-mic-a"></i>
+           Item 07
+           <span class="item-note">
+             Record
+           </span>
+         </a>
+         <a href="#" class="item">
+           Item 07
+           <span class="badge badge-assertive">3</span>
+         </a>
+         <a href="#" class="item">Item 08</a>
+         <a href="#" class="item">Item 09</a>
+         <a href="#" class="item">Item 10</a>
+         <a href="#" class="item">Item 11</a>
+         <a href="#" class="item">Item 12</a>
+         <a href="#" class="item">Item 13</a>
+         <a href="#" class="item">Item 14</a>
+         <a href="#" class="item">Item 15</a>
+         <a href="#" class="item">Item 16</a>
+         <a href="#" class="item">Item 17</a>
+         <a href="#" class="item">Item 18</a>
+         <a href="#" class="item">Item 19</a>
+         <a href="#" class="item">Item 20</a>
+         <a href="#" class="item">Item 21</a>
+         <a href="#" class="item">Item 22</a>
+         <a href="#" class="item">Item 23</a>
+         <a href="#" class="item">Item 24</a>
+         <a href="#" class="item">Item 25</a>
+         <a href="#" class="item">Item 26</a>
+         <a href="#" class="item">Item 27</a>
+         <a href="#" class="item">Item 28</a>
+         <a href="#" class="item">Item 29</a>
+         <a href="#" class="item">Item 30</a>
+       </div>
+     </ion-content>
+   
+   
+   </ion-pane> Video 13 - 14-->
+
+  
+    <!-- <div class="list list-inset">
+      <div class="item item-divider">
+        Video 014
+      </div>
+      <div class="item item-image item-body">
+        <img src="http://placehold.it/600x200" alt="Item Img">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex atque ab cum ullam maiores quam enim, maxime id obcaecati et laudantium qui tempore explicabo fugiat, nesciunt, ea saepe debitis aspernatur!</p>
+      </div>
+      <div class="item item-icon-left">
+        <i class="icon ion-home"></i>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsam unde pariatur a rerum, perferendis omnis, laborum cum dolorum adipisci commodi ducimus, quis in totam. Eligendi dolor error ab rem.
+      </div>
+      <div class="item item-divider">
+        Video 014 Footer
+      </div>
+    </div> End vid 14-->
+
+
+<!-- Generic Header -->
+ <!--  <ion-pane>
+    <ion-header-bar class="bar-royal">
+       <button class="icon ion-navicon button button-clear"></button>
+       <h1 class="title">Video 017+</h1>
+       <button class="icon ion-gear-a button button-clear"></button>
+    </ion-header-bar> -->
+
+  <!-- vidio 15 -->
+   <!--  <ion-content>
+
+    <div class="card">
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">First Name</span>
+        <input type="text" placeholder="Your First Name">
+      </label>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Last Name</span>
+        <input type="text" placeholder="Your Last Name">
+      </label> -->
+
+  <!-- Vid 16 -->
+
+      <!-- <label class="item item-input">
+        <textarea placeholder="comments"></textarea>
+      </label>
+
+      <div class="item item-divider">Favorite subject is...</div>
+
+      <label class="item item-radio">
+        <input type="radio" name="Subject">
+        <div class="item-content">Facebook</div>
+        <i class="radio-icon ion-social-facebook"></i>
+      </label>
+      <label class="item item-radio">
+        <input type="radio" name="Subject">
+        <div class="item-content">Twitter</div>
+        <i class="radio-icon ion-social-twitter"></i>
+      </label>
+      <label class="item item-radio">
+        <input type="radio" name="Subject">
+        <div class="item-content">Github</div>
+        <i class="radio-icon ion-social-github"></i>
+      </label>
+
+      <div class="item item-toggle">
+        <span class="input-label">Awesomeness</span>
+        <label class="toggle">
+          <input type="checkbox">
+          <div class="track"><div class="handle"></div></div>
+        </label>
+      </div>
+
+      <div class="item range range-positive">
+        <span class="input-label">How do you feel?</span>
+        <i class="icon ion-sad-outline"></i>
+        <input type="range" name="feeling"
+          min="0" max="100" value="50">
+        <i class="icon ion-happy"></i>
+      </div>
+
+      <div class="item range range-positive">
+        <i class="icon ion-sad-outline"></i>
+        <input type="range" name="feeling"
+          min="0" max="100" value="50">
+        <i class="icon ion-happy"></i>
+      </div>
+
+      <label class="item item-input item-select">
+        <div class="input-label">Favorite Pet</div>
+        <select>
+          <option>Dogs</option>
+          <option>Cats</option>
+          <option>Llamas</option>
+        </select>
+      </label>
+
+
+    </div>
+
+
+    </ion-content>
+   </ion-pane>  -->
+
+   <!-- Vid 18 - Scaffolding a Single App View -->
+
+    <ion-pane>
+      <ion-header-bar class="bar-dark">
+        <h2 class="title">Artist List</h2>
+      </ion-header-bar>
+
+    </ion-pane>
+  </body>
+</html>
